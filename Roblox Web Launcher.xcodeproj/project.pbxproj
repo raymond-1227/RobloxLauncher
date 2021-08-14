@@ -1,0 +1,581 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E5301F4226C8296300DC7954 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5301F4126C8296300DC7954 /* AppDelegate.swift */; };
+		E5301F4426C8296300DC7954 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5301F4326C8296300DC7954 /* ViewController.swift */; };
+		E5301F4626C8296500DC7954 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5301F4526C8296500DC7954 /* Assets.xcassets */; };
+		E5301F4926C8296500DC7954 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5301F4726C8296500DC7954 /* Main.storyboard */; };
+		E5301F5526C8296500DC7954 /* RobloxWebLauncherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5301F5426C8296500DC7954 /* RobloxWebLauncherTests.swift */; };
+		E5301F6026C8296500DC7954 /* RobloxWebLauncherUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5301F5F26C8296500DC7954 /* RobloxWebLauncherUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E5301F5126C8296500DC7954 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E5301F3626C8296300DC7954 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E5301F3D26C8296300DC7954;
+			remoteInfo = RobloxWebLauncher;
+		};
+		E5301F5C26C8296500DC7954 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E5301F3626C8296300DC7954 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E5301F3D26C8296300DC7954;
+			remoteInfo = RobloxWebLauncher;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E5301F3E26C8296300DC7954 /* Roblox Web Launcher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Roblox Web Launcher.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5301F4126C8296300DC7954 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E5301F4326C8296300DC7954 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E5301F4526C8296500DC7954 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = RobloxWebLauncher/Assets.xcassets; sourceTree = SOURCE_ROOT; };
+		E5301F4826C8296500DC7954 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E5301F4A26C8296500DC7954 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E5301F4B26C8296500DC7954 /* RobloxWebLauncher.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = RobloxWebLauncher.entitlements; sourceTree = "<group>"; };
+		E5301F5026C8296500DC7954 /* Roblox Web LauncherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Roblox Web LauncherTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5301F5426C8296500DC7954 /* RobloxWebLauncherTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RobloxWebLauncherTests.swift; sourceTree = "<group>"; };
+		E5301F5626C8296500DC7954 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E5301F5B26C8296500DC7954 /* Roblox Web LauncherUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Roblox Web LauncherUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5301F5F26C8296500DC7954 /* RobloxWebLauncherUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RobloxWebLauncherUITests.swift; sourceTree = "<group>"; };
+		E5301F6126C8296500DC7954 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E5301F3B26C8296300DC7954 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5301F4D26C8296500DC7954 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5301F5826C8296500DC7954 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E5301F3526C8296300DC7954 = {
+			isa = PBXGroup;
+			children = (
+				E5301F4026C8296300DC7954 /* RobloxWebLauncher */,
+				E5301F5326C8296500DC7954 /* RobloxWebLauncherTests */,
+				E5301F5E26C8296500DC7954 /* RobloxWebLauncherUITests */,
+				E5301F3F26C8296300DC7954 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E5301F3F26C8296300DC7954 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E5301F3E26C8296300DC7954 /* Roblox Web Launcher.app */,
+				E5301F5026C8296500DC7954 /* Roblox Web LauncherTests.xctest */,
+				E5301F5B26C8296500DC7954 /* Roblox Web LauncherUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E5301F4026C8296300DC7954 /* RobloxWebLauncher */ = {
+			isa = PBXGroup;
+			children = (
+				E5301F4126C8296300DC7954 /* AppDelegate.swift */,
+				E5301F4326C8296300DC7954 /* ViewController.swift */,
+				E5301F4526C8296500DC7954 /* Assets.xcassets */,
+				E5301F4726C8296500DC7954 /* Main.storyboard */,
+				E5301F4A26C8296500DC7954 /* Info.plist */,
+				E5301F4B26C8296500DC7954 /* RobloxWebLauncher.entitlements */,
+			);
+			path = RobloxWebLauncher;
+			sourceTree = "<group>";
+		};
+		E5301F5326C8296500DC7954 /* RobloxWebLauncherTests */ = {
+			isa = PBXGroup;
+			children = (
+				E5301F5426C8296500DC7954 /* RobloxWebLauncherTests.swift */,
+				E5301F5626C8296500DC7954 /* Info.plist */,
+			);
+			path = RobloxWebLauncherTests;
+			sourceTree = "<group>";
+		};
+		E5301F5E26C8296500DC7954 /* RobloxWebLauncherUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E5301F5F26C8296500DC7954 /* RobloxWebLauncherUITests.swift */,
+				E5301F6126C8296500DC7954 /* Info.plist */,
+			);
+			path = RobloxWebLauncherUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E5301F3D26C8296300DC7954 /* Roblox Web Launcher */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E5301F6426C8296500DC7954 /* Build configuration list for PBXNativeTarget "Roblox Web Launcher" */;
+			buildPhases = (
+				E5301F3A26C8296300DC7954 /* Sources */,
+				E5301F3B26C8296300DC7954 /* Frameworks */,
+				E5301F3C26C8296300DC7954 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Roblox Web Launcher";
+			productName = RobloxWebLauncher;
+			productReference = E5301F3E26C8296300DC7954 /* Roblox Web Launcher.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E5301F4F26C8296500DC7954 /* Roblox Web LauncherTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E5301F6726C8296500DC7954 /* Build configuration list for PBXNativeTarget "Roblox Web LauncherTests" */;
+			buildPhases = (
+				E5301F4C26C8296500DC7954 /* Sources */,
+				E5301F4D26C8296500DC7954 /* Frameworks */,
+				E5301F4E26C8296500DC7954 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E5301F5226C8296500DC7954 /* PBXTargetDependency */,
+			);
+			name = "Roblox Web LauncherTests";
+			productName = RobloxWebLauncherTests;
+			productReference = E5301F5026C8296500DC7954 /* Roblox Web LauncherTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E5301F5A26C8296500DC7954 /* Roblox Web LauncherUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E5301F6A26C8296500DC7954 /* Build configuration list for PBXNativeTarget "Roblox Web LauncherUITests" */;
+			buildPhases = (
+				E5301F5726C8296500DC7954 /* Sources */,
+				E5301F5826C8296500DC7954 /* Frameworks */,
+				E5301F5926C8296500DC7954 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E5301F5D26C8296500DC7954 /* PBXTargetDependency */,
+			);
+			name = "Roblox Web LauncherUITests";
+			productName = RobloxWebLauncherUITests;
+			productReference = E5301F5B26C8296500DC7954 /* Roblox Web LauncherUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E5301F3626C8296300DC7954 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					E5301F3D26C8296300DC7954 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					E5301F4F26C8296500DC7954 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = E5301F3D26C8296300DC7954;
+					};
+					E5301F5A26C8296500DC7954 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = E5301F3D26C8296300DC7954;
+					};
+				};
+			};
+			buildConfigurationList = E5301F3926C8296300DC7954 /* Build configuration list for PBXProject "Roblox Web Launcher" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E5301F3526C8296300DC7954;
+			productRefGroup = E5301F3F26C8296300DC7954 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E5301F3D26C8296300DC7954 /* Roblox Web Launcher */,
+				E5301F4F26C8296500DC7954 /* Roblox Web LauncherTests */,
+				E5301F5A26C8296500DC7954 /* Roblox Web LauncherUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E5301F3C26C8296300DC7954 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5301F4626C8296500DC7954 /* Assets.xcassets in Resources */,
+				E5301F4926C8296500DC7954 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5301F4E26C8296500DC7954 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5301F5926C8296500DC7954 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E5301F3A26C8296300DC7954 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5301F4426C8296300DC7954 /* ViewController.swift in Sources */,
+				E5301F4226C8296300DC7954 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5301F4C26C8296500DC7954 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5301F5526C8296500DC7954 /* RobloxWebLauncherTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5301F5726C8296500DC7954 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5301F6026C8296500DC7954 /* RobloxWebLauncherUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E5301F5226C8296500DC7954 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E5301F3D26C8296300DC7954 /* Roblox Web Launcher */;
+			targetProxy = E5301F5126C8296500DC7954 /* PBXContainerItemProxy */;
+		};
+		E5301F5D26C8296500DC7954 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E5301F3D26C8296300DC7954 /* Roblox Web Launcher */;
+			targetProxy = E5301F5C26C8296500DC7954 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E5301F4726C8296500DC7954 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E5301F4826C8296500DC7954 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E5301F6226C8296500DC7954 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E5301F6326C8296500DC7954 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		E5301F6526C8296500DC7954 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = RobloxWebLauncher/RobloxWebLauncher.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = RobloxWebLauncher/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 0.0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = Raymond.RobloxWebLauncher;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		E5301F6626C8296500DC7954 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = RobloxWebLauncher/RobloxWebLauncher.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = RobloxWebLauncher/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 0.0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = Raymond.RobloxWebLauncher;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		E5301F6826C8296500DC7954 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = RobloxWebLauncherTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				PRODUCT_BUNDLE_IDENTIFIER = Raymond.RobloxWebLauncherTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Roblox Web Launcher.app/Contents/MacOS/Roblox Web Launcher";
+			};
+			name = Debug;
+		};
+		E5301F6926C8296500DC7954 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = RobloxWebLauncherTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				PRODUCT_BUNDLE_IDENTIFIER = Raymond.RobloxWebLauncherTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Roblox Web Launcher.app/Contents/MacOS/Roblox Web Launcher";
+			};
+			name = Release;
+		};
+		E5301F6B26C8296500DC7954 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = RobloxWebLauncherUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Raymond.RobloxWebLauncherUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = RobloxWebLauncher;
+			};
+			name = Debug;
+		};
+		E5301F6C26C8296500DC7954 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = RobloxWebLauncherUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Raymond.RobloxWebLauncherUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = RobloxWebLauncher;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E5301F3926C8296300DC7954 /* Build configuration list for PBXProject "Roblox Web Launcher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E5301F6226C8296500DC7954 /* Debug */,
+				E5301F6326C8296500DC7954 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E5301F6426C8296500DC7954 /* Build configuration list for PBXNativeTarget "Roblox Web Launcher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E5301F6526C8296500DC7954 /* Debug */,
+				E5301F6626C8296500DC7954 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E5301F6726C8296500DC7954 /* Build configuration list for PBXNativeTarget "Roblox Web LauncherTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E5301F6826C8296500DC7954 /* Debug */,
+				E5301F6926C8296500DC7954 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E5301F6A26C8296500DC7954 /* Build configuration list for PBXNativeTarget "Roblox Web LauncherUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E5301F6B26C8296500DC7954 /* Debug */,
+				E5301F6C26C8296500DC7954 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E5301F3626C8296300DC7954 /* Project object */;
+}

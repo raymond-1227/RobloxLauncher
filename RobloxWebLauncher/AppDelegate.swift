@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  RobloxWebLauncher
 //
-//  Created by Raymond Hsu on 2021/8/15.
+//  Created by Raymond Hsu on August 15th, 2021.
 //
 
 import Cocoa

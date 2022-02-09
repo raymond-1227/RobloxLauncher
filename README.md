@@ -1,5 +1,9 @@
 # Roblox Launcher for macOS
 
+Dedicated for people who uses web browsers (especially Firefox on macOS) that doesn't handle Roblox game launching properly.
+
+~~Oh and people who has parents that actively searches your internet history but you still want to play Roblox so yeah MUAHAHAHA~~
+
 ## About
 
 A web app I designed for people to launch Roblox games because Firefox for macOS never launches Roblox properly.

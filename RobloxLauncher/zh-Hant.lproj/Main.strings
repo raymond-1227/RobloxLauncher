@@ -1,0 +1,132 @@
+
+/* Class = "NSMenu"; title = "Window"; ObjectID = "0Vl-u6-mUR"; */
+"0Vl-u6-mUR.title" = "視窗";
+
+/* Class = "NSMenuItem"; title = "Roblox Launcher"; ObjectID = "1Xt-HY-uBw"; */
+"1Xt-HY-uBw.title" = "RobloxLauncher";
+
+/* Class = "NSMenu"; title = "Speech"; ObjectID = "3rS-ZA-NoH"; */
+"3rS-ZA-NoH.title" = "說話";
+
+/* Class = "NSMenuItem"; title = "Enter Full Screen"; ObjectID = "4J7-dP-txa"; */
+"4J7-dP-txa.title" = "進入全螢幕";
+
+/* Class = "NSMenuItem"; title = "Quit Roblox Launcher"; ObjectID = "4sb-4s-VLi"; */
+"4sb-4s-VLi.title" = "結束 RobloxLauncher";
+
+/* Class = "NSMenuItem"; title = "Edit"; ObjectID = "5QF-Oa-p0T"; */
+"5QF-Oa-p0T.title" = "編輯";
+
+/* Class = "NSMenuItem"; title = "About Roblox Launcher"; ObjectID = "5kV-Vb-QxS"; */
+"5kV-Vb-QxS.title" = "關於 RobloxLauncher";
+
+/* Class = "NSMenuItem"; title = "Redo"; ObjectID = "6dh-zS-Vam"; */
+"6dh-zS-Vam.title" = "取消復原";
+
+/* Class = "NSMenu"; title = "Main Menu"; ObjectID = "AYu-sK-qS6"; */
+"AYu-sK-qS6.title" = "主選單";
+
+/* Class = "NSMenuItem"; title = "Window"; ObjectID = "DNH-Zd-mPe"; */
+"DNH-Zd-mPe.title" = "視窗";
+
+/* Class = "NSMenuItem"; title = "View"; ObjectID = "H8h-7b-M4v"; */
+"H8h-7b-M4v.title" = "檢視";
+
+/* Class = "NSMenu"; title = "View"; ObjectID = "HyV-fh-RgO"; */
+"HyV-fh-RgO.title" = "檢視";
+
+/* Class = "NSWindow"; title = "Roblox"; ObjectID = "IQv-IB-iLA"; */
+"IQv-IB-iLA.title" = "Roblox";
+
+/* Class = "NSMenuItem"; title = "Show All"; ObjectID = "Kd2-mp-pUS"; */
+"Kd2-mp-pUS.title" = "全部顯示";
+
+/* Class = "NSMenuItem"; title = "Roblox Launcher Help"; ObjectID = "OY7-WF-poV"; */
+"OY7-WF-poV.title" = "RobloxLauncher 幫助";
+
+/* Class = "NSMenuItem"; title = "Hide Roblox Launcher"; ObjectID = "Olw-nP-bQN"; */
+"Olw-nP-bQN.title" = "隱藏 RobloxLauncher";
+
+/* Class = "NSMenuItem"; title = "Stop Speaking"; ObjectID = "Oyz-dy-DGm"; */
+"Oyz-dy-DGm.title" = "停止說話";
+
+/* Class = "NSMenuItem"; title = "Select All"; ObjectID = "Ruw-6m-B2m"; */
+"Ruw-6m-B2m.title" = "全選";
+
+/* Class = "NSMenuItem"; title = "Minimize"; ObjectID = "TN3-un-wya"; */
+"TN3-un-wya.title" = "最小化";
+
+/* Class = "NSMenuItem"; title = "Hide Others"; ObjectID = "Vdr-fp-XzO"; */
+"Vdr-fp-XzO.title" = "隱藏其他";
+
+/* Class = "NSMenu"; title = "Edit"; ObjectID = "W48-6f-4Dl"; */
+"W48-6f-4Dl.title" = "編輯";
+
+/* Class = "NSToolbarItem"; label = "Forward"; ObjectID = "YW8-sX-sKD"; */
+"YW8-sX-sKD.label" = "下一頁";
+
+/* Class = "NSToolbarItem"; paletteLabel = "Forward"; ObjectID = "YW8-sX-sKD"; */
+"YW8-sX-sKD.paletteLabel" = "下一頁";
+
+/* Class = "NSToolbarItem"; toolTip = "Go to next page"; ObjectID = "YW8-sX-sKD"; */
+"YW8-sX-sKD.toolTip" = "瀏覽下一頁";
+
+/* Class = "NSMenuItem"; title = "Start Speaking"; ObjectID = "Ynk-f8-cLZ"; */
+"Ynk-f8-cLZ.title" = "開始說話";
+
+/* Class = "NSMenuItem"; title = "Help"; ObjectID = "aUF-d1-5bR"; */
+"aUF-d1-5bR.title" = "幫助";
+
+/* Class = "NSToolbarItem"; label = "Refresh"; ObjectID = "c94-nQ-iUy"; */
+"c94-nQ-iUy.label" = "重新整理";
+
+/* Class = "NSToolbarItem"; paletteLabel = "Refresh"; ObjectID = "c94-nQ-iUy"; */
+"c94-nQ-iUy.paletteLabel" = "重新整理";
+
+/* Class = "NSToolbarItem"; toolTip = "Refresh the current page"; ObjectID = "c94-nQ-iUy"; */
+"c94-nQ-iUy.toolTip" = "重新整理本頁面";
+
+/* Class = "NSMenuItem"; title = "Undo"; ObjectID = "dRJ-4n-Yzg"; */
+"dRJ-4n-Yzg.title" = "復原";
+
+/* Class = "NSToolbarItem"; label = "Back"; ObjectID = "dVn-7w-g5E"; */
+"dVn-7w-g5E.label" = "上一頁";
+
+/* Class = "NSToolbarItem"; paletteLabel = "Back"; ObjectID = "dVn-7w-g5E"; */
+"dVn-7w-g5E.paletteLabel" = "上一頁";
+
+/* Class = "NSToolbarItem"; toolTip = "Go to previous page"; ObjectID = "dVn-7w-g5E"; */
+"dVn-7w-g5E.toolTip" = "回到上一頁";
+
+/* Class = "NSMenuItem"; title = "Paste"; ObjectID = "gVA-U4-sdL"; */
+"gVA-U4-sdL.title" = "貼上";
+
+/* Class = "NSMenuItem"; title = "Close"; ObjectID = "hyy-SJ-sjg"; */
+"hyy-SJ-sjg.title" = "關閉";
+
+/* Class = "NSMenu"; title = "Help"; ObjectID = "kqq-mc-TQg"; */
+"kqq-mc-TQg.title" = "幫助";
+
+/* Class = "NSMenuItem"; title = "Delete"; ObjectID = "pa3-QI-u2k"; */
+"pa3-QI-u2k.title" = "刪除";
+
+/* Class = "NSMenuItem"; title = "Bring All to Front"; ObjectID = "r4M-y1-MlI"; */
+"r4M-y1-MlI.title" = "移至最上層";
+
+/* Class = "NSMenuItem"; title = "Refresh"; ObjectID = "snW-S8-Cw5"; */
+"snW-S8-Cw5.title" = "重新整理";
+
+/* Class = "NSMenuItem"; title = "Zoom"; ObjectID = "tmp-J0-gfc"; */
+"tmp-J0-gfc.title" = "放大";
+
+/* Class = "NSMenu"; title = "Roblox Launcher"; ObjectID = "uQy-DD-JDr"; */
+"uQy-DD-JDr.title" = "RobloxLauncher";
+
+/* Class = "NSMenuItem"; title = "Cut"; ObjectID = "uRl-iY-unG"; */
+"uRl-iY-unG.title" = "剪下";
+
+/* Class = "NSMenuItem"; title = "Copy"; ObjectID = "x3v-GG-iWU"; */
+"x3v-GG-iWU.title" = "貼上";
+
+/* Class = "NSMenuItem"; title = "Speech"; ObjectID = "xrE-MZ-jX0"; */
+"xrE-MZ-jX0.title" = "說話";

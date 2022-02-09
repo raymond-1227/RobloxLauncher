@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E513B25E27B4498C00AAB091 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = E513B25D27B4498C00AAB091 /* Credits.rtf */; };
 		E5301F4226C8296300DC7954 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5301F4126C8296300DC7954 /* AppDelegate.swift */; };
 		E5301F4426C8296300DC7954 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5301F4326C8296300DC7954 /* ViewController.swift */; };
 		E5301F4926C8296500DC7954 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5301F4726C8296500DC7954 /* Main.storyboard */; };
@@ -33,6 +34,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E513B25C27B445CB00AAB091 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Main.strings"; sourceTree = "<group>"; };
+		E513B25D27B4498C00AAB091 /* Credits.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = Credits.rtf; sourceTree = "<group>"; };
 		E5301F3E26C8296300DC7954 /* RobloxLauncher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RobloxLauncher.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5301F4126C8296300DC7954 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E5301F4326C8296300DC7954 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -76,6 +79,7 @@
 		E5301F3526C8296300DC7954 = {
 			isa = PBXGroup;
 			children = (
+				E513B25D27B4498C00AAB091 /* Credits.rtf */,
 				E5301F4026C8296300DC7954 /* RobloxLauncher */,
 				E5301F5326C8296500DC7954 /* RobloxLauncherTests */,
 				E5301F5E26C8296500DC7954 /* RobloxLauncherUITests */,
@@ -212,13 +216,14 @@
 					};
 				};
 			};
-			buildConfigurationList = E5301F3926C8296300DC7954 /* Build configuration list for PBXProject "RobloxLauncher" */;
+			buildConfigurationList = E5301F3926C8296300DC7954 /* Build configuration list for PBXProject "Roblox Launcher" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
+				"zh-Hant",
 			);
 			mainGroup = E5301F3526C8296300DC7954;
 			packageReferences = (
@@ -240,6 +245,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E5301F4926C8296500DC7954 /* Main.storyboard in Resources */,
+				E513B25E27B4498C00AAB091 /* Credits.rtf in Resources */,
 				E5BDD13A27B3DF9600F1AD7B /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -306,6 +312,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				E5301F4826C8296500DC7954 /* Base */,
+				E513B25C27B445CB00AAB091 /* zh-Hant */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -317,6 +324,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -378,6 +386,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -438,14 +447,14 @@
 				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 3;
+				CURRENT_PROJECT_VERSION = 4;
 				INFOPLIST_FILE = RobloxLauncher/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 11.0;
-				MARKETING_VERSION = 0.0.3;
+				MARKETING_VERSION = 0.1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = Raymond.RobloxLauncher;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -462,14 +471,14 @@
 				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 3;
+				CURRENT_PROJECT_VERSION = 4;
 				INFOPLIST_FILE = RobloxLauncher/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 11.0;
-				MARKETING_VERSION = 0.0.3;
+				MARKETING_VERSION = 0.1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = Raymond.RobloxLauncher;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -559,7 +568,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E5301F3926C8296300DC7954 /* Build configuration list for PBXProject "RobloxLauncher" */ = {
+		E5301F3926C8296300DC7954 /* Build configuration list for PBXProject "Roblox Launcher" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E5301F6226C8296500DC7954 /* Debug */,

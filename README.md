@@ -1,4 +1,4 @@
-# Roblox Web Launcher for macOS
+# Roblox Launcher for macOS
 
 ## About
 
@@ -10,7 +10,7 @@ The application quits when you close the window, so i recommend you to minimize 
 
 ## Installation
 
-[Click here](https://github.com/raymond-1227/roblox-web-launcher/releases/latest) to download the zip file which includes the app itself.
+[Click here](https://github.com/raymond-1227/RobloxLauncher/releases/latest) to download the zip file which includes the app itself.
 
 Just execute the app and login to your Roblox account as usual. Have fun!
 

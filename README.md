@@ -1,5 +1,9 @@
 # Roblox Launcher for macOS
 
+Dedicated for people who uses web browsers (especially Firefox on macOS) that doesn't handle Roblox game launching properly.
+
+~~Oh and people who has parents that actively searches your internet history but you still want to play Roblox so yeah MUAHAHAHA~~
+
 ## About
 
 A web app I designed for people to launch Roblox games because Firefox for macOS never launches Roblox properly.
@@ -14,11 +18,21 @@ The application quits when you close the window, so i recommend you to minimize 
 
 Just execute the app and login to your Roblox account as usual. Have fun!
 
+## Cannot Open The App?
+
+Since I'm not paying Apple to sign my application, so please follow the steps to start using the app!
+1. Go to System Preferences 
+2. Go to Security & Privacy > General and click on `Open Anyway`.
+
+You'll only have to do this once after you downloaded and execute the application or updates which I released!
+
 ## Note
 
-This application has only been tested on my Mac, running macOS Big Sur 11.5.2 (Intel Variant), and it's completely safe.
+**This app supports both Intel and Apple Silicon based Macs!** *(insert tim cook wow here)*
 
-Since I'm not paying Apple to sign my application, so you must reopen the application from `System Preferences > Security & Privacy > General` and click on `Open Anyway`. (You'll only have to do this once after you download)
+This application has only been tested on my Mac, running macOS Monterey 12.2 (Intel Variant), and it's completely safe.
+
+
 
 ## Credits
 

@@ -18,9 +18,9 @@ class ViewController: NSViewController, WKUIDelegate {
         let webConfiguration = WKWebViewConfiguration ();
         webConfiguration.preferences.setValue(true, forKey: "allowFileAccessFromFileURLs");
         webView = WKWebView (frame: CGRect(x:0, y:0, width:1920, height:1080), configuration:webConfiguration);
-        
         webView.navigationDelegate = self
         self.view = webView;
+        self.webView.configuration.preferences.setValue(true, forKey: "developerExtrasEnabled")
     }
     
     override func viewDidLoad() {
@@ -38,11 +38,12 @@ class ViewController: NSViewController, WKUIDelegate {
             if var title = webView.title {
                 let wordToRemove = "Roblox"
                 if let range = title.range(of: wordToRemove) {
-                   title.removeSubrange(range)
+                    title.removeSubrange(range)
                 }
                 let removeCharacters: Set<Character> = ["-"]
                 title.removeAll(where: { removeCharacters.contains($0) } )
-                self.view.window?.subtitle = title
+                let trimmed = title.trimmingCharacters(in: .whitespacesAndNewlines)
+                self.view.window?.subtitle = trimmed
             }
         }
     }
@@ -59,7 +60,9 @@ extension ViewController: WKNavigationDelegate {
             }
             // Check for the scheme component.
             let components = URLComponents(url: url, resolvingAgainstBaseURL: false)
-            if components?.scheme == "http" || components?.scheme == "https" {
+            if components?.scheme == "roblox-player" {
+                decisionHandler(.allow)
+            } else if components?.scheme == "http" || components?.scheme == "https" {
                 // Open the link in the external browser.
                 NSWorkspace.shared.open(url)
                 // Cancel the decisionHandler because we managed the navigationAction.
@@ -70,5 +73,6 @@ extension ViewController: WKNavigationDelegate {
         } else {
             decisionHandler(.allow)
         }
+        
     }
 }

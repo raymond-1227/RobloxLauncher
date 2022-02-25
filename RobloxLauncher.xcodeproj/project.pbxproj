@@ -10,9 +10,9 @@
 		E513B25E27B4498C00AAB091 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = E513B25D27B4498C00AAB091 /* Credits.rtf */; };
 		E5301F4226C8296300DC7954 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5301F4126C8296300DC7954 /* AppDelegate.swift */; };
 		E5301F4426C8296300DC7954 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5301F4326C8296300DC7954 /* ViewController.swift */; };
-		E5301F4926C8296500DC7954 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5301F4726C8296500DC7954 /* Main.storyboard */; };
 		E5301F5526C8296500DC7954 /* RobloxWebLauncherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5301F5426C8296500DC7954 /* RobloxWebLauncherTests.swift */; };
 		E5301F6026C8296500DC7954 /* RobloxWebLauncherUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5301F5F26C8296500DC7954 /* RobloxWebLauncherUITests.swift */; };
+		E54B2E4E27C9123F008C4F0B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E54B2E4C27C9123F008C4F0B /* Main.storyboard */; };
 		E5BDD13A27B3DF9600F1AD7B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5BDD13927B3DF9600F1AD7B /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
@@ -34,12 +34,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		E513B25C27B445CB00AAB091 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Main.strings"; sourceTree = "<group>"; };
 		E513B25D27B4498C00AAB091 /* Credits.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = Credits.rtf; sourceTree = "<group>"; };
 		E5301F3E26C8296300DC7954 /* RobloxLauncher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RobloxLauncher.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5301F4126C8296300DC7954 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E5301F4326C8296300DC7954 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		E5301F4826C8296500DC7954 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E5301F4A26C8296500DC7954 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E5301F4B26C8296500DC7954 /* RobloxLauncher.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = RobloxLauncher.entitlements; sourceTree = "<group>"; };
 		E5301F5026C8296500DC7954 /* RobloxLauncherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RobloxLauncherTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -48,6 +46,9 @@
 		E5301F5B26C8296500DC7954 /* RobloxLauncherUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RobloxLauncherUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5301F5F26C8296500DC7954 /* RobloxWebLauncherUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RobloxWebLauncherUITests.swift; sourceTree = "<group>"; };
 		E5301F6126C8296500DC7954 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E54B2E4427C9064A008C4F0B /* RobloxLauncherRelease.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = RobloxLauncherRelease.entitlements; sourceTree = "<group>"; };
+		E54B2E4D27C9123F008C4F0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E54B2E5427C91292008C4F0B /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Main.strings"; sourceTree = "<group>"; };
 		E5BDD13927B3DF9600F1AD7B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -101,9 +102,10 @@
 		E5301F4026C8296300DC7954 /* RobloxLauncher */ = {
 			isa = PBXGroup;
 			children = (
+				E54B2E4427C9064A008C4F0B /* RobloxLauncherRelease.entitlements */,
 				E5301F4126C8296300DC7954 /* AppDelegate.swift */,
 				E5301F4326C8296300DC7954 /* ViewController.swift */,
-				E5301F4726C8296500DC7954 /* Main.storyboard */,
+				E54B2E4C27C9123F008C4F0B /* Main.storyboard */,
 				E5BDD13927B3DF9600F1AD7B /* Assets.xcassets */,
 				E5301F4A26C8296500DC7954 /* Info.plist */,
 				E5301F4B26C8296500DC7954 /* RobloxLauncher.entitlements */,
@@ -244,7 +246,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E5301F4926C8296500DC7954 /* Main.storyboard in Resources */,
+				E54B2E4E27C9123F008C4F0B /* Main.storyboard in Resources */,
 				E513B25E27B4498C00AAB091 /* Credits.rtf in Resources */,
 				E5BDD13A27B3DF9600F1AD7B /* Assets.xcassets in Resources */,
 			);
@@ -308,11 +310,11 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		E5301F4726C8296500DC7954 /* Main.storyboard */ = {
+		E54B2E4C27C9123F008C4F0B /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				E5301F4826C8296500DC7954 /* Base */,
-				E513B25C27B445CB00AAB091 /* zh-Hant */,
+				E54B2E4D27C9123F008C4F0B /* Base */,
+				E54B2E5427C91292008C4F0B /* zh-Hant */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -447,14 +449,14 @@
 				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 5;
+				CURRENT_PROJECT_VERSION = 6;
 				INFOPLIST_FILE = RobloxLauncher/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 11.0;
-				MARKETING_VERSION = 0.2.0;
+				MARKETING_VERSION = 0.2.1;
 				PRODUCT_BUNDLE_IDENTIFIER = Raymond.RobloxLauncher;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -467,18 +469,18 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
-				CODE_SIGN_ENTITLEMENTS = RobloxLauncher/RobloxWebLauncher.entitlements;
+				CODE_SIGN_ENTITLEMENTS = RobloxLauncher/RobloxLauncherRelease.entitlements;
 				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 5;
+				CURRENT_PROJECT_VERSION = 6;
 				INFOPLIST_FILE = RobloxLauncher/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 11.0;
-				MARKETING_VERSION = 0.2.0;
+				MARKETING_VERSION = 0.2.1;
 				PRODUCT_BUNDLE_IDENTIFIER = Raymond.RobloxLauncher;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;

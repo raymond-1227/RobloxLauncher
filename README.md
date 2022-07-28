@@ -26,12 +26,13 @@ Since I'm not paying Apple to sign my application, so please follow the steps to
 
 You'll only have to do this once after you downloaded and execute the application or updates which I released!
 
-## Note
+## Notes (As of July 29, 2022)
 
 **This app supports both Intel and Apple Silicon based Macs!** *(insert tim cook wow here)*
 
 This application has only been tested on my Mac, running macOS Monterey 12.2 (Intel Variant), and it's completely safe.
 
+**Warning**: This app will no longer be maintained as the official RobloxPlayer app (which is the app you use to play Roblox experiences) has now implemented the Roblox experience pages.
 
 
 ## Credits
